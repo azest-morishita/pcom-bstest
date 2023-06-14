@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Bootstrap demoSite</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #E6E6E6;">
+    
+    <div class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <div class="h2 text-center" style="color: red; margin-bottom: 0px !important;">Blog</div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="py-3">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="py-2 col-12 col-md-3 bg-danger custom-border text-white" style="border-top: 1px solid #000; border-bottom: 1px solid #000;">
+            <div class="h6 text-center w-100" style="margin-bottom: 0px !important;">All categories</div>
+          </div>
+          <div class="py-2 col-12 col-md-3 custom-border d-flex align-items-center" style="border-top: 1px solid #000; border-bottom: 1px solid #000; background-color: #BDAFA5;">
+            <div class="h6 text-center w-100" style="margin-bottom: 0px !important;">Latest articles</div>
+          </div>
+          <div class="py-2 col-12 col-md-3 custom-border d-flex align-items-center" style="border-top: 1px solid #000; border-bottom: 1px solid #000; background-color: #BDAFA5;">
+            <div class="h6 text-center w-100" style="margin-bottom: 0px !important;">Our know-how</div>
+          </div>
+          <div class="py-2 col-12 col-md-3 custom-border d-flex align-items-center" style="border-top: 1px solid #000; border-bottom: 1px solid #000; background-color: #BDAFA5;">
+            <div class="h6 text-center w-100" style="margin-bottom: 0px !important;">About us</div>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="py-3 col-12 col-md-6 border">
+            <div class="d-flex justify-content-center align-items-center"> 
+              <!-- 画像の大きさを幅で変えるためには？ -->
+              <img src="https://github.com/azest-morishita/pcom-bstest/blob/main/astax.png?raw=true" class="img-fluid w-100" alt="Description of image">
+            </div>
+          </div>
+
+          <div class="py-2 col-12 col-md-6 border">
+            <div class="py-2">
+              <div class="d-flex flex-row flex-wrap">
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">Our know-how</div>
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">About us</div>
+              </div>
+            </div>
+            <div class="py-2">
+              <div class="h6">Astaxanthin: An Antioxidant</div>
+            </div>
+            <div class="py-2">
+              <div class="text-secondary">March 12, 2021</div>
+            </div>            
+            <div class="py-2">
+              <div>Compounds such as astaxanthin pique market interest due to their ability to eficiently act on various...</div>
+            </div>
+            <div class="py-2">
+              <div><a href="#"class="text-danger">more ↗︎</a></div>
+            </div>            
+          </div>
+
+          <div class="py-2 col-12 col-md-6 border">
+            <div class="py-2">
+              <div class="d-flex flex-row flex-wrap">
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">Our know-how</div>
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">About us</div>
+              </div>
+            </div>
+            <div class="py-2">
+              <div class="h6">Astaxanthin: Food for animal and marine life</div>
+            </div>
+            <div class="py-2">
+              <div class="text-secondary">March 12, 2021</div>
+            </div>            
+            <div class="py-2">
+              <div>Recent research studies have demonstrated the importance of carotenoids in human health. These carotenoids play essential...</div>
+            </div>
+            <div class="py-2">
+              <div><a href="#"class="text-danger">more ↗︎</a></div>
+            </div>
+          </div>
+
+          <div class="py-2 col-12 col-md-6 border">
+            <div class="py-2">
+              <div class="d-flex flex-row flex-wrap">
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">Our know-how</div>
+              </div>
+            </div>
+            <div class="py-2">
+              <div class="h6">What is Astaxanthin? What is it used for?</div>
+            </div>
+            <div class="py-2">
+              <div class="text-secondary">March 12, 2021</div>
+            </div>            
+            <div class="py-2">
+              <div>A rich, red nutrient called Astaxanthin has become increasingly popular due to its myriad health benefits. ...</div>           
+            </div>
+            <div class="py-2">
+              <div><a href="#"class="text-danger">more ↗︎</a></div>
+            </div>
+          </div>
+
+          <div class="py-2 col-12 col-md-6 border">
+            <div class="py-2">
+              <div class="d-flex flex-row flex-wrap">
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">Our know-how</div>
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">About us</div>
+              </div>
+            </div>
+            <div class="py-2">
+              <div class="h6">Biosynthesis of cannabinoids vs. chemical synthesis</div>
+            </div>
+            <div class="py-2">
+              <div class="text-secondary">March 12, 2021</div>
+            </div>            
+            <div class="py-2">
+              <div>Biosynthesis is the process in which naturally occurring reagents and catalysts are used to create compounds identical to these found in nature...</div>
+            </div>
+            <div class="py-2">
+              <div><a href="#"class="text-danger">more ↗︎</a></div>
+            </div>
+          </div>
+
+          <div class="py-2 col-12 col-md-6 border">
+            <div class="py-2">
+              <div class="d-flex flex-row flex-wrap">
+                <div class="text-danger  mr-2 p-1" style="border: 2px solid #DC3545;">Our know-how</div>
+              </div>
+            </div>
+            <div class="py-2">
+              <div class="h6">HempFusion shares jump 50% in TSX debut - Reuters</div>
+            </div>
+            <div class="py-2">
+              <div class="text-secondary">March 12, 2021</div>
+            </div>            
+            <div class="py-2">
+              <div>A rich, red nutrient called Astaxanthin has become increasingly popular due to its myriad health benefits. ...</div>
+            </div>
+            <div class="py-2">
+              <div><a href="#"class="text-danger">more ↗︎</a></div>
+            </div>            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
